@@ -1,19 +1,11 @@
 const cors = require('cors');
 const express = require("express");
 const bodyParser = require('body-parser');
-const {
-    connect
-} = require('mongoose');
-const {
-    success,
-    error
-} = require('consola')
+const {connect} = require('mongoose');
+const {success,error} = require('consola')
 
 //App constants
-const {
-    DB,
-    PORT
-} = require('./config');
+const {DB,PORT} = require('./config');
 
 //Initialize the application
 
